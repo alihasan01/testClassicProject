@@ -10,6 +10,6 @@ ID varchar2 not null,
 FIRST_NAME text,
 LAST_NAME text,
 CONTACT varchar2,
-STREET number,
+STREET_NO number,
 PRIMARY KEY (ID)
 )
