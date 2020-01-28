@@ -9,7 +9,6 @@ CREATE OR REPLACE TABLE "{{ database }}"."{{ schema }}"."TESTTABLE" (
 ID varchar2 not null,
 FIRST_NAME text,
 LAST_NAME text,
-STREET_NO number,
 CONTACT varchar2(100),
 PRIMARY KEY (ID)
 )
